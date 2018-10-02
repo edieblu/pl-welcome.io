@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+  font-family: Helvetica, Arial, sans-serif;
+  letter-spacing: 0.7px;
+  margin: 0;
+}
+
+/* Section  */
+.fdb-block {
+  width: 80%;
+  margin: 0 auto;
+  padding: 30px 0;
+}
+
+/* Title  */
+.main-image {
+  position: relative;
+  width: 100%;
+}
+
+.page-title {
+  width: 100%;
+  position: absolute;
+  top: 120px;
+  color: white;
+  text-align: center;
+  font-size: 7rem !important;
+  font-weight: 700;
+  font-family: "Times" !important;
+  letter-spacing: 1px !important;
+}
+
+.community-science img,
+.interests img {
+  border-radius: 50%;
+  width: 80%;
+}
+
+.interests {
+  background-color: rgba(196, 219, 240, 0.2);
+}
+
+.secondary-text {
+  color: rgba(47, 96, 207, 1);
+}
+
+.call-to-action-bottom {
+  padding: 2.5rem 0;
+}
+
+.divider-hr {
+  width: 80%;
+  margin: 0 auto;
+  border: 0;
+  height: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
