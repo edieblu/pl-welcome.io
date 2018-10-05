@@ -30,13 +30,12 @@
 h1.page-title {
   width: 100%;
   position: absolute;
-  top: 120px;
+  top: 110px;
   color: white;
   text-align: center;
   font-size: 8rem;
   font-weight: 500;
-  font-family: "Times";
-  letter-spacing: 1px;
+  font-family: "Georgia";
 }
 
 section.social-media {
