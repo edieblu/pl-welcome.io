@@ -1,15 +1,24 @@
+@font-face {
+  font-family: "JunctionLight";
+  src: url("./fonts/junction.light-webfont.woff2") format("woff2"),
+    url("./fonts/junction.light-webfont.woff") format("woff");
+}
+
 * {
   box-sizing: border-box;
-  font-family: Helvetica, Arial, sans-serif;
   letter-spacing: 0.7px;
   margin: 0;
 }
 
 /* Section  */
 .fdb-block {
-  width: 80%;
   margin: 0 auto;
   padding: 30px 0;
+  font-family: "JunctionLight", Helvetica, Arial, sans-serif;
+}
+
+.fdb-block .container {
+  width: 80%;
 }
 
 /* Title  */
@@ -18,16 +27,16 @@
   width: 100%;
 }
 
-.page-title {
+h1.page-title {
   width: 100%;
   position: absolute;
   top: 120px;
   color: white;
   text-align: center;
-  font-size: 7rem !important;
-  font-weight: 700;
-  font-family: "Times" !important;
-  letter-spacing: 1px !important;
+  font-size: 8rem;
+  font-weight: 500;
+  font-family: "Times";
+  letter-spacing: 1px;
 }
 
 section.social-media {
@@ -42,6 +51,7 @@ section.social-media {
 
 .interests {
   background-color: rgba(196, 219, 240, 0.2);
+  width: 100%;
 }
 
 .secondary-text {
