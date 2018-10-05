@@ -30,6 +30,10 @@
   letter-spacing: 1px !important;
 }
 
+section.social-media {
+  padding-bottom: 0;
+}
+
 .community-science img,
 .interests img {
   border-radius: 50%;
