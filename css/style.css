@@ -70,3 +70,33 @@ section.social-media {
   border-top: 1px solid rgba(0, 0, 0, 0.1);
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 }
+
+/* carousel */
+
+.col-md-4 {
+  display: inline-block;
+  margin-left: -10px;
+}
+.col-md-4 img {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+}
+
+body .carousel-control-prev-icon,
+body .carousel-indicators li,
+body .carousel-control-next-icon {
+  background-color: #000;
+}
+
+span.carousel-control-prev-icon {
+  position: relative;
+  bottom: 72px;
+  right: 40px;
+}
+
+span.carousel-control-next-icon {
+  position: relative;
+  bottom: 72px;
+  left: 30px;
+}
